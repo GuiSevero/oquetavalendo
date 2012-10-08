@@ -1,0 +1,69 @@
+@import "variables.less";
+@import "elements.less";
+
+@base-color: #ccc;
+@inner-color: #fff;
+@site-width: 950px;
+@bgCard: #f23;
+
+body{
+	/* Mixins */ 
+	.bw-gradient('ccc', 255, 100);
+}
+
+
+
+.event-card{
+
+	/* Mixins */
+	//.border-radius(15px, 0, 15px, 0);
+	.rounded(5px);
+	.bw-gradient('ccc', 240, 220);
+	.drop-shadow(-2px, 2px, 2px, 0.2);
+
+	/* Custom Styles */
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+
+
+.main-container{
+
+	/* Mixins */
+	//.rounded(10px);
+
+	/* Custom Styles */
+	max-width: 1024px;
+	display: block;
+	margin:0 auto;
+	//background-color: #fff;
+	padding: 10px;
+}
+
+.row-item{
+	.rounded(10px);
+	background-color: #fff;
+	padding: 10px;		
+}
+
+.carousel-item{
+	.rounded(10px);
+}
+
+.carousel-item > img{
+	width: 1024px;
+}
+
+.cards-container{
+	/* Mixins */
+	.bw-gradient('ccc', 70, 000);
+	.rounded(10px);
+	.drop-shadow(-5px, 5px, 10px, 0.4);
+
+	/* Custom Styles */
+	padding: 10px;
+	margin-bottom: 10px;
+	
+	
+}

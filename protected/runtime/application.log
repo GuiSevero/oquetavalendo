@@ -1,0 +1,1419 @@
+2012/09/28 16:06:52 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Sao_Paulo' for '-3.0/no DST' instead (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#5 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#6 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#8 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#10 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (51)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (6)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (32)
+2012/09/28 21:17:51 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Sao_Paulo' for '-3.0/no DST' instead (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:49)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#5 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#6 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#8 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#10 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (49)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (6)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (32)
+2012/09/28 21:20:21 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Sao_Paulo' for '-3.0/no DST' instead (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:49)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#5 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#6 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#8 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#10 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (49)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (6)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (32)
+2012/09/28 21:20:23 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Sao_Paulo' for '-3.0/no DST' instead (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:49)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#5 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#6 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#8 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#10 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (49)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (6)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (32)
+2012/09/28 21:41:30 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Sao_Paulo' for '-3.0/no DST' instead (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:49)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#5 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#6 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#8 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#10 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (49)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (6)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (32)
+2012/09/30 00:15:22 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Sao_Paulo' for '-3.0/no DST' instead (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:49)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#5 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#6 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#8 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#10 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (49)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (6)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (32)
+2012/10/01 00:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:34:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:34:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:34:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:34:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:34:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:34:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:34:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:34:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:34:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:39:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:39:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:39:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:39:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:45:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:45:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:46:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:46:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:46:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/01 00:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:46:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/contact
+---
+2012/10/01 00:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/page?view=about
+---
+2012/10/01 00:51:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:51:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:51:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/jquery-...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/jquery-1.7.2.min.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:51:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/less.js')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/less.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/01 00:51:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\Apache\apache\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): CController->run('js')
+#2 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/js/bootstr...')
+#3 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache\apache\www\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/js/bootstrap.js
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/index
+---
+2012/10/03 03:52:37 [error] [php] Undefined variable: baseUrl (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:15)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#5 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(9): SiteController->endContent()
+#6 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#9 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(35): SiteController->render()
+#10 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/site/index
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (15)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (9)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (35)
+2012/10/03 03:52:53 [error] [php] Undefined variable: baseUrl (C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php:16)
+Stack trace:
+#0 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#1 C:\Apache\apache\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#2 C:\Apache\apache\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 C:\Apache\apache\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#4 C:\Apache\apache\www\yii\framework\web\CBaseController.php(301): SiteController->endWidget()
+#5 C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php(9): SiteController->endContent()
+#6 C:\Apache\apache\www\yii\framework\web\CBaseController.php(127): require()
+#7 C:\Apache\apache\www\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 C:\Apache\apache\www\yii\framework\web\CController.php(785): SiteController->renderFile()
+#9 C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php(35): SiteController->render()
+#10 C:\Apache\apache\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 C:\Apache\apache\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\Apache\apache\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\Apache\apache\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\Apache\apache\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\Apache\apache\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\Apache\apache\www\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/site/index
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (16)
+in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (9)
+in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (35)
