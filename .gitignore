@@ -161,3 +161,18 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+
+##User Ignore
+
+assets/
+protected/runtime/
+protected/config/
+protected/extensions/
+protected/temp/
+protected/libs/
+protected/commands/
+protected/migrations/
+themes/classic/views/
+themes/
+*.tar
