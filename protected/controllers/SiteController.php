@@ -52,12 +52,12 @@ class SiteController extends Controller
 	/**
 	 * Displays the contact page
 	 */
-	public function actionContact()
+	public function actionSignUp()
 	{
-		$model=new ContactForm;
-		if(isset($_POST['ContactForm']))
+		$model=new User;
+		if(isset($_POST['USerForm']))
 		{
-			$model->attributes=$_POST['ContactForm'];
+			$model->attributes=$_POST['UserForm'];
 			if($model->validate())
 			{
 				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';

@@ -1417,3 +1417,94 @@ REQUEST_URI=/oquetavalendo/index.php/site/index
 in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\main.php (16)
 in C:\Apache\apache\www\oquetavalendo\protected\views\layouts\column1.php (9)
 in C:\Apache\apache\www\oquetavalendo\protected\controllers\SiteController.php (35)
+2012/10/23 03:26:37 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(57): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/site/contact
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (57)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/10/23 03:26:41 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(57): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/site/contact
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (57)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/10/23 03:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "index.php" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('user/index.php')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/user/index.php
+---
+2012/10/23 03:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "use".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('use')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/use
+---
+2012/10/23 03:57:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "about" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('about')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('about')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/about')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/about
+---
+2012/10/23 04:20:54 [error] [php] Undefined variable: user (C:\xampp\htdocs\oquetavalendo\protected\views\user\_form.php:32)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): UserController->renderFile()
+#1 C:\xampp\htdocs\oquetavalendo\protected\views\user\create.php(6): UserController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): UserController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): UserController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): UserController->renderPartial()
+#6 C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php(79): UserController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): UserController->actionCreate()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): UserController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): UserController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/user/create
+in C:\xampp\htdocs\oquetavalendo\protected\views\user\_form.php (32)
+in C:\xampp\htdocs\oquetavalendo\protected\views\user\create.php (6)
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (79)
+2012/10/23 04:24:43 [warning] [application] Failed to set unsafe attribute "PasswordConfirm" of "User".
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (72)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/10/23 04:27:20 [warning] [application] Failed to set unsafe attribute "PasswordConfirm" of "User".
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (72)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/10/23 04:27:37 [warning] [application] Failed to set unsafe attribute "PasswordConfirm" of "User".
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (72)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)

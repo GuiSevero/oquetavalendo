@@ -22,7 +22,6 @@ return array(
 	),
 
 	'modules'=>array(
-		// uncomment the following to enable the Gii tool
 		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
@@ -42,27 +41,27 @@ return array(
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
-			'urlFormat'=>'path',
+		    'urlFormat'=>'path',
+		    'showScriptName'=>false,
+		    'caseSensitive'=>false,        
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				'about'=>'site/about',
+			    'contact'=>'site/contact',
+			    '/'=>'site/index',
+			    '<controller:\w+>/<id:\d+>'=>'<controller>/view',
+			    '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+			    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		
+
 		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-		),
-		// uncomment the following to use a MySQL database
-		/*
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+			'connectionString' => 'mysql:host=174.120.126.202;dbname=oqueta_testes',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'oqueta_tester',
+			'password' => 'diogocosta',
 			'charset' => 'utf8',
 		),
-		*/
+		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
