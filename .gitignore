@@ -164,9 +164,9 @@ pip-log.txt
 
 
 ##User Ignore
-
 assets/
 protected/runtime/
+protected/config/
 protected/extensions/
 protected/temp/
 protected/libs/
