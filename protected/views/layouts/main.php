@@ -21,9 +21,9 @@
 
 	
 	<!-- User Styles -->
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.less" rel="stylesheet/less">
-  <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/variables.less" rel="stylesheet/less">
-  <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/elements.less" rel="stylesheet/less">
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" rel="stylesheet">
+  
+  
 
 
 	
@@ -46,8 +46,19 @@
           </a>
           <a class="brand" href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo_white.png" class="logo-menu" width="20"></img></a>
           <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
+            <p class="navbar-text pull-right">              
+              <?php $this->widget('zii.widgets.CMenu',array(
+          'activeCssClass'=>'active',
+                        'activateItems'=>true,
+                        'activateParents'=>true,
+                  'encodeLabel'=>false,
+                  'activeCssClass'=>'active',
+                  'htmlOptions'=>array('class'=>'nav pull-right'),
+          'items'=>array(
+            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+          ),
+        )); ?>
             </p>
             <ul class="nav">             
               	<?php $this->widget('zii.widgets.CMenu',array(
@@ -59,14 +70,12 @@
 									'htmlOptions'=>array('class'=>'nav'),
 					'items'=>array(
 						array('label'=>'Home', 'url'=>array('/site/index')),
-						array('label'=>'Shows', 'url'=>array('/site/page', 'view'=>'about')),
-						array('label'=>'Festas', 'url'=>array('/site/contact')),
-            array('label'=>'Teatro', 'url'=>array('/site/contact')),
-            array('label'=>'Cinema', 'url'=>array('/site/contact')),
-            array('label'=>'Fotos', 'url'=>array('/site/contact')),
-            array('label'=>'Recomendado', 'url'=>array('/site/contact')),
-						array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-						array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+						//array('label'=>'Shows', 'url'=>array('/site/page', 'view'=>'about')),
+            array('label'=>'Shows', 'url'=>array('/site/shows')),
+						array('label'=>'Festas', 'url'=>array('/site/party')),
+            array('label'=>'Teatro', 'url'=>array('/site/theater')),
+            array('label'=>'Cinema', 'url'=>array('/site/movies')),
+            array('label'=>'Fotos', 'url'=>array('/site/photo')),  		
 					),
 				)); ?>
             </ul>
@@ -88,7 +97,6 @@
 
 <!-- Javascript - No final para a pagina carregar mais rapido -->
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.7.2.min.js"></script>	
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/less.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.js"></script>
 
 </body>
