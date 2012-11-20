@@ -19,6 +19,8 @@
 	<link  href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" rel="stylesheet" />
 	<link  href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap-responsive.css" rel="stylesheet"/>
 
+  <link rel="stylesheet/less" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.less">
+  <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/less.js" type="text/javascript"></script>
 	
 	<!-- User Styles -->
 	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" rel="stylesheet">
@@ -67,7 +69,7 @@
 		             				'activateParents'=>true,
 									'encodeLabel'=>false,
 									'activeCssClass'=>'active',
-									'htmlOptions'=>array('class'=>'nav'),
+									'htmlOptions'=>array('class'=>'nav nav-pills'),
 					'items'=>array(
 						array('label'=>'Home', 'url'=>array('/site/index')),
 						//array('label'=>'Shows', 'url'=>array('/site/page', 'view'=>'about')),
@@ -75,7 +77,7 @@
 						array('label'=>'Festas', 'url'=>array('/site/party')),
             array('label'=>'Teatro', 'url'=>array('/site/theater')),
             array('label'=>'Cinema', 'url'=>array('/site/movies')),
-            array('label'=>'Fotos', 'url'=>array('/site/photo')),  		
+            //array('label'=>'Fotos', 'url'=>array('/site/photo')),  		
 					),
 				)); ?>
             </ul>
@@ -91,11 +93,15 @@
 
 </div><!-- container -->
 
-<footer>
-        <p>&copy; Company 2012</p>
-      </footer>
+  <footer>
+    <center>
+      <font size='1'>
+        OQUETAVALENDO &copy;2012. Todos os direitos reservados.</p>
+      </font>
+    </center>
+  </footer>
 
-<!-- Javascript - No final para a pagina carregar mais rapido -->
+  <!-- Javascript - No final para a pagina carregar mais rapido -->
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.7.2.min.js"></script>	
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.js"></script>
 

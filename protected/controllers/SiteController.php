@@ -30,9 +30,13 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		//Na tela inicial, exibe todos os atuais eventos
+		$dataHoraAtual = getdate();
+		$dataHoraAtual = $dataHoraAtual['year']."-".$dataHoraAtual['mon']."-".$dataHoraAtual['mday']." ".$dataHoraAtual['hours'].":".$dataHoraAtual['minutes'].":".$dataHoraAtual['seconds'];
+
+		$allEvents = Event::model()->findAllByAttributes(array(), "date_time <= '".$dataHoraAtual."'");
+
+		$this->render('index', array('events' => $allEvents));
 	}
 
 	/**

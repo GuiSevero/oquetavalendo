@@ -1574,3 +1574,1245 @@ Stack trace:
 REQUEST_URI=/oquetavalendo/index.php/contact
 HTTP_REFERER=http://localhost/oquetavalendo/index.php/contact
 ---
+2012/10/29 17:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/10/29 17:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/10/29 17:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/10/29 17:13:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:13:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/movies/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/movies/p...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/movies/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/movies/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/movies/p...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/movies/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/movies/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/movies/p...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/movies/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic4.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic4.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic5.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic5.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic8.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic8.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic6.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic6.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic10.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic10.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic7.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic7.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic11.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic11.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic12.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic12.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic9.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic9.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/photo
+---
+2012/10/29 17:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:17:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:19:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:19:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:19:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:19:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/movies/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/movies/p...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/movies/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/movies/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/movies/p...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/movies/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/movies/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/movies/p...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/movies/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/movies
+---
+2012/10/29 17:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:20:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:22:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:23:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/theater
+---
+2012/10/29 17:24:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic2.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic2.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/party/pic3.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/party/pi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/party/pic3.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/party
+---
+2012/10/29 17:24:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:25:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:25:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:25:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/10/29 17:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/10/29 17:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/11/19 16:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 16:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/11/19 16:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 16:56:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 16:56:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 16:56:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 16:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 16:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 16:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:09:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:11:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/11/19 17:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/pics/pic1.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/pics/pic...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/images/pics/pic1.jpg
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/shows
+---
+2012/11/19 17:11:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/11/19 17:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/11/19 17:30:59 [error] [php] Array to string conversion (C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (35)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/19 17:31:19 [error] [php] Array to string conversion (C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (35)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/19 17:45:23 [error] [php] date() expects at least 1 parameter, 0 given (C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (34)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/19 17:49:11 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17:49:7' at line 1. A declaração SQL executada foi: SELECT * FROM `EVENT` `t` WHERE date_time <= 2012-11-19 17:49:7.
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (37)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/19 17:49:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17:49:7' at line 1. The SQL statement executed was: SELECT * FROM `EVENT` `t` WHERE date_time <= 2012-11-19 17:49:7' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1476): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(37): CActiveRecord->findAllByAttributes(Array, 'date_time <= 20...')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/oquetavalendo/
+---
+2012/11/19 17:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:52:29 [error] [php] Undefined variable: events (C:\xampp\htdocs\oquetavalendo\protected\views\site\_allEvents.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\oquetavalendo\protected\views\site\index.php(45): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(39): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/
+in C:\xampp\htdocs\oquetavalendo\protected\views\site\_allEvents.php (4)
+in C:\xampp\htdocs\oquetavalendo\protected\views\site\index.php (45)
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (39)
+2012/11/19 17:52:58 [error] [exception.CException] exception 'CException' with message 'A propriedade "Event.Description" não está definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('Description')
+#1 C:\xampp\htdocs\oquetavalendo\protected\views\site\_allEvents.php(6): CActiveRecord->__get('Description')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\oquetavalendo\protected\views\site\index.php(45): CController->renderPartial('_allEvents', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(39): CController->render('index', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/oquetavalendo/
+---
+2012/11/19 17:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/19 17:56:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/main.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/css/main.css
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
