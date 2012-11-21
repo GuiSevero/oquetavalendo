@@ -11,6 +11,7 @@
  * @property string $gender
  * @property string $accessToken
  * @property string $photo
+ * @property string $email
  *
  * Relacionamentos possíveis
  * @property COMMENT[] $cOMMENTs
@@ -47,7 +48,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, password', 'required'),
+			array('email, password', 'required'),
 			array('age', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>100),
 			array('password', 'length', 'max'=>8),
@@ -56,7 +57,7 @@ class User extends CActiveRecord
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, password, age, gender, accessToken, photo', 'safe', 'on'=>'search'),
-			array('password', 'compare', 'compareAttribute' => 'passwordConfirm')
+			//array('password', 'compare', 'compareAttribute' => 'passwordConfirm')
 		);
 	}
 

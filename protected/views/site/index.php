@@ -32,14 +32,33 @@ $('#hottest-carousel').carousel({
   </div>
 
   <div class="cards-container">
-    <ul class="nav nav-tabs">
-      <li class="active">
-        <?=CHtml::ajaxLink("Principais Eventos", CController::createUrl("SiteController/escolherUmNomeBom"), 
-          array("type" => "POST",
-                "update" => "eventos"));?></a>
+    <ul id="tabs" class="nav nav-tabs">
+      <li id="tab1" class="active">
+        <?=CHtml::ajaxLink("Principais Eventos", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+          array("type" => "GET",
+                "data" => "id=1",
+                "success" => 'function(dados){
+                                $("#eventos").html(dados);
+                              }'
+          ));?></a>
       </li>
-      <li class="">
-        <a href="#">Recomendado</a>
+      <li id="tab2" class="">
+        <?=CHtml::ajaxLink("Recomendado", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+          array("type" => "GET",
+                "data" => "id=2",
+                "success" => 'function(dados){
+                                $("#eventos").html(dados);
+                              }'
+          ));?>
+      </li>
+      <li id="tab3" class="">
+        <?=CHtml::ajaxLink("Todos", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+          array("type" => "GET",
+                "data" => "id=0",
+                "success" => 'function(dados){
+                                $("#eventos").html(dados);
+                              }'
+          ));?>
       </li>
     </ul>
     
@@ -48,3 +67,13 @@ $('#hottest-carousel').carousel({
     </div>
 
   </div>
+
+
+<script>
+$(document).ready(function() {
+  $('#tabs').click(function (e) {
+    $('ul.nav-tabs li.active').removeClass('active')
+    $("this").parent('li').addClass('active')
+  });
+});
+</script>

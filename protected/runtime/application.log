@@ -2816,3 +2816,203 @@ Stack trace:
 REQUEST_URI=/oquetavalendo/css/main.css
 HTTP_REFERER=http://localhost/oquetavalendo/
 ---
+2012/11/21 01:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "SiteController/escolherUmNomeBom".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('SiteController/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/index.php/SiteController/escolherUmNomeBom/1
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/21 01:49:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "SiteController/actionTabSelecionadaAtualizaView".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('SiteController/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/index.php/SiteController/actionTabSelecionadaAtualizaView
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/21 01:49:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "SiteController/actionTabSelecionadaAtualizaView".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('SiteController/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/index.php/SiteController/actionTabSelecionadaAtualizaView
+---
+2012/11/21 01:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "SiteController/actionTabSelecionadaAtualizaView".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('SiteController/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/oquetavalendo/index.php/SiteController/actionTabSelecionadaAtualizaView
+---
+2012/11/21 01:51:34 [error] [php] Undefined variable: allEvents (C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php:64)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/site/tabSelecionadaAtualizaView
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (64)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/21 01:51:38 [error] [php] Undefined variable: allEvents (C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php:64)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\oquetavalendo\index.php(13): CWebApplication->run()
+REQUEST_URI=/oquetavalendo/index.php/site/tabSelecionadaAtualizaView
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (64)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/21 01:53:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('tabselecionadaa...')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/tabSelecio...')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/tabSelecionadaAtualizaView
+HTTP_REFERER=http://localhost/oquetavalendo/
+---
+2012/11/21 02:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "user" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('user')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('user')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/user/creat...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/user/create
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/site/login
+---
+2012/11/21 02:46:03 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.create" não está definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(141): CComponent->__get('create')
+#1 C:\xampp\htdocs\oquetavalendo\protected\views\site\login.php(57): CWebUser->__get('create')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#6 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(119): CController->render('login', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/login
+---
+2012/11/21 02:46:03 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.create" não está definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(141): CComponent->__get('create')
+#1 C:\xampp\htdocs\oquetavalendo\protected\views\site\login.php(57): CWebUser->__get('create')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#6 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(119): CController->render('login', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/login
+---
+2012/11/21 02:46:20 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.create" não está definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(141): CComponent->__get('create')
+#1 C:\xampp\htdocs\oquetavalendo\protected\views\site\login.php(57): CWebUser->__get('create')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#6 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(119): CController->render('login', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/login
+---
+2012/11/21 03:06:14 [warning] [application] Failed to set unsafe attribute "PasswordConfirm" of "User".
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (72)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/21 03:06:24 [warning] [application] Failed to set unsafe attribute "PasswordConfirm" of "User".
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (72)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/21 03:06:32 [warning] [application] Failed to set unsafe attribute "PasswordConfirm" of "User".
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (72)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/21 03:07:36 [warning] [application] Failed to set unsafe attribute "PasswordConfirm" of "User".
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\UserController.php (72)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/11/21 03:15:16 [error] [exception.CException] exception 'CException' with message 'A propriedade "LoginForm.email" não está definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('email')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 C:\xampp\htdocs\oquetavalendo\protected\views\site\login.php(25): CActiveForm->textField(Object(LoginForm), 'email')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(119): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/login
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---
+2012/11/21 03:15:40 [error] [exception.CException] exception 'CException' with message 'A propriedade "LoginForm.email" não está definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('email')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 C:\xampp\htdocs\oquetavalendo\protected\views\site\login.php(25): CActiveForm->textField(Object(LoginForm), 'email')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(119): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/login
+HTTP_REFERER=http://localhost/oquetavalendo/index.php/
+---

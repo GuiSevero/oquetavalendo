@@ -10,15 +10,16 @@
 	'id'=>'user-form',
 	'enableAjaxValidation'=>false,
 )); ?>
+	<h1>Cadastro</h1>
 
 	<p class="note">Campos com <span class="required">*</span> são obrigatório.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>100)); ?>
-		<?php echo $form->error($model,'name'); ?>
+		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'email'); ?>
 	</div>
 
 	<div class="row">
@@ -28,9 +29,10 @@
 	</div>
 
 	<div class="row">
-	    <?php echo CHtml::Label('Confirmar a senha', 'User_PasswordConfirm'); ?>
-        <?php echo CHtml::activePasswordField($model, 'PasswordConfirm', array('value' => '')); ?>
-    </div>
+		<?php echo $form->labelEx($model,'name'); ?>
+		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'name'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'age'); ?>
@@ -40,14 +42,8 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'gender'); ?>
-		<?php echo $form->textField($model,'gender',array('size'=>1,'maxlength'=>1)); ?>
+		<?php echo $form->dropDownList($model,'gender',array('M'=>"Masculino",'F'=>"Feminino"), array('prompt'=>'Escolha o sexo')); ?>
 		<?php echo $form->error($model,'gender'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'photo'); ?>
-		<?php echo $form->textField($model,'photo',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'photo'); ?>
 	</div>
 
 	<div class="row buttons">

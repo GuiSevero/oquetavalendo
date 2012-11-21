@@ -34,7 +34,7 @@ class SiteController extends Controller
 		$dataHoraAtual = getdate();
 		$dataHoraAtual = $dataHoraAtual['year']."-".$dataHoraAtual['mon']."-".$dataHoraAtual['mday']." ".$dataHoraAtual['hours'].":".$dataHoraAtual['minutes'].":".$dataHoraAtual['seconds'];
 
-		$allEvents = Event::model()->findAllByAttributes(array(), "date_time <= '".$dataHoraAtual."'");
+		$allEvents = Event::model()->findAllByAttributes(array("priority" => true), "date_time <= '".$dataHoraAtual."'");
 
 		$this->render('index', array('events' => $allEvents));
 	}
@@ -51,6 +51,20 @@ class SiteController extends Controller
 			else
 				$this->render('error', $error);
 		}
+	}
+
+
+	public function actionTabSelecionadaAtualizaView($id)
+	{	
+		$dataHoraAtual = getdate();
+		$dataHoraAtual = $dataHoraAtual['year']."-".$dataHoraAtual['mon']."-".$dataHoraAtual['mday']." ".$dataHoraAtual['hours'].":".$dataHoraAtual['minutes'].":".$dataHoraAtual['seconds'];
+
+		if($id != 0)
+			$events = Event::model()->findAllByAttributes(array("type" => $id), "date_time <= '".$dataHoraAtual."'");
+		else
+			$events = Event::model()->findAllByAttributes(array(), "date_time <= '".$dataHoraAtual."'");
+
+		$this->renderPartial('_allEvents', array('events' => $events));
 	}
 
 	/**
