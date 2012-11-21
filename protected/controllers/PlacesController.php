@@ -1,6 +1,6 @@
 <?php
 
-class UserController extends Controller
+class PlacesController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -14,7 +14,7 @@ class UserController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', 	 // perform access control for CRUD operations
+			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
 		);
 	}
@@ -32,8 +32,8 @@ class UserController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update', 'edit'),
-				'users'=>array('*'),
+				'actions'=>array('create','update'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -42,7 +42,6 @@ class UserController extends Controller
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
-
 		);
 	}
 
@@ -63,16 +62,16 @@ class UserController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model = new User;
+		$model=new Places;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['User']))
+		if(isset($_POST['Places']))
 		{
-			$model->attributes=$_POST['User'];
+			$model->attributes=$_POST['Places'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('view','id'=>$model->id_place));
 		}
 
 		$this->render('create',array(
@@ -92,11 +91,11 @@ class UserController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['User']))
+		if(isset($_POST['Places']))
 		{
-			$model->attributes=$_POST['User'];
+			$model->attributes=$_POST['Places'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('view','id'=>$model->id_place));
 		}
 
 		$this->render('update',array(
@@ -123,24 +122,10 @@ class UserController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('User');
+		$dataProvider=new CActiveDataProvider('Places');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
-	}
-
-	public function actionEdit()
-	{
-		$model = User::model()->findByAttributes(array('id' =>Yii::app()->user->getId()));
-		
-		if(isset($_POST['User']) && isset($_POST['yt0']) && $_POST['yt0'] == "Save")
-		{
-			$model->attributes=$_POST['User'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
-		}
-		$this->render("edit", array('model' => $model));
-
 	}
 
 	/**
@@ -148,10 +133,10 @@ class UserController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new User('search');
+		$model=new Places('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['User']))
-			$model->attributes=$_GET['User'];
+		if(isset($_GET['Places']))
+			$model->attributes=$_GET['Places'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -165,7 +150,7 @@ class UserController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=User::model()->findByPk($id);
+		$model=Places::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -177,7 +162,7 @@ class UserController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='user-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='places-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

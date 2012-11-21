@@ -26,9 +26,9 @@ class UserIdentity extends CUserIdentity
 			'demo'=>'demo',
 			'admin'=>'admin',
 		);
-		if(!isset($users[$this->email]))
+		if(!isset($users[$this->username]))
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		else if($users[$this->email]!==$this->password)
+		else if($users[$this->username]!==$this->password)
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		else
 			$this->errorCode=self::ERROR_NONE;
@@ -53,16 +53,16 @@ class UserIdentity extends CUserIdentity
 			
 			//Carrega atributos do usuário
 	   		$user = new User();
-	   		$user = $user->findByUserName($this->email);
+	   		$user = $user->find('email = :email', array('email'=>$this->username));
 	   					
 		
 		if($user === null) //Verifica se o email é válido
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		else if($user->password !== md5($this->password)){ //Verifica se o pass é válido
+		else if($user->password !== $this->password){ //Verifica se o pass é válido
 
 			    $this->errorCode=self::ERROR_PASSWORD_INVALID;
 	   			
-	   			$this->_name = $user->login;
+	   			$this->_email = $user->email;
 	   			$this->_id = $user->id;
 			}
 		else{
@@ -70,7 +70,7 @@ class UserIdentity extends CUserIdentity
 	   			$this->errorCode=self::ERROR_NONE;
 	   			   			
 	   			//Atribui os atributos
-	   			$this->_name = $user->login;
+	   			$this->_email = $user->email;
 	   			$this->_id = $user->id;
 		}
 
@@ -85,7 +85,7 @@ class UserIdentity extends CUserIdentity
 	 */
 	
 	public function getName(){
-		return ($this->_name == null) ? $this->email : $this->_email;
+		return ($this->_email == null) ? $this->username : $this->_email;
 	}
 	/**
 	 * 

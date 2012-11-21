@@ -45,7 +45,6 @@ class Places extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_place', 'required'),
 			array('id_place, number, secondNumber, phone', 'numerical', 'integerOnly'=>true),
 			array('cordX, cordY', 'numerical'),
 			array('name, mail', 'length', 'max'=>50),

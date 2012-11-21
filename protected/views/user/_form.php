@@ -10,8 +10,6 @@
 	'id'=>'user-form',
 	'enableAjaxValidation'=>false,
 )); ?>
-	<h1>Cadastro</h1>
-
 	<p class="note">Campos com <span class="required">*</span> são obrigatório.</p>
 
 	<?php echo $form->errorSummary($model); ?>

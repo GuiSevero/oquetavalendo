@@ -4,6 +4,7 @@
  * Esse é o modelo para a tabela "EVENT".
  *
  * Atributos
+ * @property string $title
  * @property integer $id_event
  * @property integer $numberGirls
  * @property integer $numberMen
@@ -51,13 +52,13 @@ class Event extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_event, id_place, type', 'required'),
+			array('id_place, type', 'required'),
 			array('id_event, numberGirls, numberMen, id_place, priority, type', 'numerical', 'integerOnly'=>true),
 			array('priceMan, priceGirl, consumableMan, consumableGirl', 'numerical'),
-			array('description, date_time', 'safe'),
+			array('title, description, date_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id_event, numberGirls, numberMen, description, id_place, date_time, priceMan, priceGirl, consumableMan, consumableGirl, priority, type', 'safe', 'on'=>'search'),
+			array('title, id_event, numberGirls, numberMen, description, id_place, date_time, priceMan, priceGirl, consumableMan, consumableGirl, priority, type', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -92,6 +93,7 @@ class Event extends CActiveRecord
 			'consumableMan' => 'Consumação Masculino',
 			'consumableGirl' => 'Consumação Feminino',
 			'type' => 'Tipo',
+			'title' => 'Titulo'
 		);
 	}
 
@@ -118,6 +120,7 @@ class Event extends CActiveRecord
 		$criteria->compare('consumableGirl',$this->consumableGirl);
 		$criteria->compare('priority',$this->priority);
 		$criteria->compare('type',$this->type);
+		$criteria->compare('title',$this->type);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
