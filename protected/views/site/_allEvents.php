@@ -55,7 +55,4 @@
 </div><!--/span-->
 
 <?php endforeach;?>
-=======
-	<?php endforeach; ?>		
 </div>
->>>>>>> Muitas alterações marotas.
