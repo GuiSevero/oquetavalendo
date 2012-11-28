@@ -1,5 +1,7 @@
 <?php
 /* @var $this SiteController */
+//TODO: GORDY -> consertar layout para exibir mais por linha, ou algo do tipo.
+//TODO: GORDY -> ver o lance dos botões ajax, pra carregar o primeiro item direto no load, sem clicar.
 
 Yii::app()->clientScript->registerScript('carousel',"
 //tabs
@@ -7,7 +9,7 @@ $('#hottest-carousel').carousel({
   interval: 4500
 })
 ");
-?>
+?><!--
   <div id="hottest-carousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item carousel-item active">
@@ -29,7 +31,7 @@ $('#hottest-carousel').carousel({
         </div>
       </div>
     </div>        
-  </div>
+  </div>-->
 
   <div class="cards-container">
     <ul id="tabs" class="nav nav-tabs">
@@ -46,6 +48,24 @@ $('#hottest-carousel').carousel({
         <?=CHtml::ajaxLink("Recomendado", CController::createUrl("site/tabSelecionadaAtualizaView"), 
           array("type" => "GET",
                 "data" => "id=2",
+                "success" => 'function(dados){
+                                $("#eventos").html(dados);
+                              }'
+          ));?>
+      </li>
+      <li id="tab2" class="">
+        <?=CHtml::ajaxLink("Mais mulheres", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+          array("type" => "GET",
+                "data" => "id=3",
+                "success" => 'function(dados){
+                                $("#eventos").html(dados);
+                              }'
+          ));?>
+      </li>
+      <li id="tab2" class="">
+        <?=CHtml::ajaxLink("Mais homens", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+          array("type" => "GET",
+                "data" => "id=4",
                 "success" => 'function(dados){
                                 $("#eventos").html(dados);
                               }'

@@ -59,10 +59,30 @@ class SiteController extends Controller
 		$dataHoraAtual = getdate();
 		$dataHoraAtual = $dataHoraAtual['year']."-".$dataHoraAtual['mon']."-".$dataHoraAtual['mday']." ".$dataHoraAtual['hours'].":".$dataHoraAtual['minutes'].":".$dataHoraAtual['seconds'];
 
-		if($id != 0)
-			$events = Event::model()->findAllByAttributes(array("type" => $id), "date_time <= '".$dataHoraAtual."'");
-		else
-			$events = Event::model()->findAllByAttributes(array(), "date_time <= '".$dataHoraAtual."'");
+		switch($id)
+		{
+			case 1: //Prioridade
+				$events = Event::model()->findAllByAttributes(array("priority" => '1'), "date_time >= '".$dataHoraAtual."'");
+				break;
+			
+			case 2: //Recomendado
+				$events = Event::model()->findAllByAttributes(array());
+				break;
+			
+			case 3: //Mais Mulheres
+				$events = Event::model()->findAllByAttributes(array(), array('condition' => "date_time >= '".$dataHoraAtual."'",
+																																			'order' => 'numberGirls DESC'));
+				break;
+
+			case 4: //Mais Homens
+				$events = Event::model()->findAllByAttributes(array(), array('condition' => "date_time >= '".$dataHoraAtual."'",
+																																			'order' => 'numberMen DESC'));
+				break;
+
+			default: //Todos
+				$events = Event::model()->findAllByAttributes(array(), "date_time >= '".$dataHoraAtual."'");
+				break;
+		}
 
 		$this->renderPartial('_allEvents', array('events' => $events));
 	}
@@ -126,6 +146,13 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
+	}
+
+
+	public function actionExibeDetalhes($idEvent)
+	{
+		$event = Event::model()->findByAttributes(array('id_event' => $idEvent));
+		$this->render("event", array("event" => $event));
 	}
 
 

@@ -17,6 +17,7 @@
  * @property double $consumableGirl
  * @property integer $priority
  * @property integer $type
+ * @property string $image
  *
  * Relacionamentos possíveis
  * @property COMMENT[] $cOMMENTs
@@ -44,6 +45,13 @@ class Event extends CActiveRecord
 		return 'EVENT';
 	}
 
+	public function primaryKey()
+	{
+    return 'id_event';
+    // For composite primary key, return an array like the following
+    // return array('pk1', 'pk2');
+	}
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */
@@ -55,7 +63,7 @@ class Event extends CActiveRecord
 			array('id_place, type', 'required'),
 			array('id_event, numberGirls, numberMen, id_place, priority, type', 'numerical', 'integerOnly'=>true),
 			array('priceMan, priceGirl, consumableMan, consumableGirl', 'numerical'),
-			array('title, description, date_time', 'safe'),
+			array('title, image, description, date_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('title, id_event, numberGirls, numberMen, description, id_place, date_time, priceMan, priceGirl, consumableMan, consumableGirl, priority, type', 'safe', 'on'=>'search'),
@@ -126,4 +134,21 @@ class Event extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+	public function getFormatedDate()
+	{
+		$data = explode(" ", $this->date_time);
+		$separaData = explode("-", $data[0]);
+		$data = $separaData[2]."/".$separaData[1]."/".$separaData[0];
+		return $data;
+	}
+
+	public function getHora()
+	{
+		$dataHora = explode(" ", $this->date_time);
+		$separaSegundos = explode(":", $dataHora[1]);
+		$hora = $separaSegundos[0].":".$separaSegundos[1];
+		return $hora;
+	}
+
 }
