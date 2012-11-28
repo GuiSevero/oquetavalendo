@@ -23,7 +23,6 @@
   <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/less.js" type="text/javascript"></script>
 	
 	<!-- User Styles -->
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" rel="stylesheet">
   
   
 

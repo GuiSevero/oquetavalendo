@@ -53,15 +53,16 @@ return array(
 			    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		/*
+		
 		'db'=>array(
 			'connectionString' => 'mysql:host=174.120.126.202;dbname=oqueta_testes',
 			'emulatePrepare' => true,
 			'username' => 'oqueta_tester',
 			'password' => 'diogocosta',
 			'charset' => 'utf8',
-		), */
-		
+		),
+		 
+		/*
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=oqtv',
 			'emulatePrepare' => true,
@@ -69,6 +70,7 @@ return array(
 			'password' => 'gorder',
 			'charset' => 'utf8',
 		),
+		*/
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
