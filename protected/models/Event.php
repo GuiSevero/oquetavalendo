@@ -78,10 +78,10 @@ class Event extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'Comments' => array(self::HAS_MANY, 'COMMENT', 'id_event'),
-			'Type' => array(self::BELONGS_TO, 'EVENTTYPE', 'type'),
-			'Place' => array(self::BELONGS_TO, 'PLACES', 'id_place'),
-			'Users' => array(self::MANY_MANY, 'USER', 'USER_EVENT(id_event, id_user)'),
+			'comments' => array(self::HAS_MANY, 'COMMENT', 'id_event'),
+			'eventType' => array(self::BELONGS_TO, 'EVENTTYPE', 'type'),
+			'place' => array(self::BELONGS_TO, 'PLACES', 'id_place'),
+			'users' => array(self::MANY_MANY, 'USER', 'USER_EVENT(id_event, id_user)'),
 		);
 	}
 

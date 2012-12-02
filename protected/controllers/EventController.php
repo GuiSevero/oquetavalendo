@@ -28,7 +28,7 @@ class EventController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'party', 'theater', 'show'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -142,6 +142,46 @@ class EventController extends Controller
 			'model'=>$model,
 		));
 	}
+	
+	/**
+	 * 
+	 * Carrega todas as festas
+	 */
+	public function actionParty(){
+		
+		$dataProvider=new CActiveDataProvider('Event', array('criteria'=>array( 'condition'=>"type=1")));
+		$this->render('index',array(
+			'dataProvider'=>$dataProvider,
+		));
+	}
+	
+	
+	/**
+	 * 
+	 * Carrega todas os show
+	 */
+	public function actionShow(){
+		
+		$dataProvider=new CActiveDataProvider('Event', array('criteria'=>array( 'condition'=>"type=3")));
+		$this->render('index',array(
+			'dataProvider'=>$dataProvider,
+		));
+		
+	}
+	
+	
+	/**
+	 * 
+	 * Carrega todas as peças de teatro
+	 */
+	public function actionTheater(){
+		
+		$dataProvider=new CActiveDataProvider('Event', array('criteria'=>array('condition'=>"type=2")));
+		$this->render('index',array(
+			'dataProvider'=>$dataProvider,
+		));
+		
+	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
@@ -168,4 +208,6 @@ class EventController extends Controller
 			Yii::app()->end();
 		}
 	}
+	
+	
 }

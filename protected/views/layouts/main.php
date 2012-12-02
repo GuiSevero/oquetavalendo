@@ -47,6 +47,32 @@
           </a>
           <a class="brand" href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo_white.png" class="logo-menu" width="20"></img></a>
           <div class="nav-collapse collapse">
+          	 <ul class="nav pull-right">
+          	    <?php if(Yii::app()->user->isGuest):?>
+              		<li class="pull-right"><?php echo CHtml::link('<i class="icon-user"></i> Login' , array('/site/login', 'returnUrl'=>$this->createUrl($this->route)));?></li>
+              	<?php else:?>
+              	<li class="dropdown" id="op-menu">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-wrench"></i> <b>Menu</b> <b class="caret"></b></a>
+                <?php $this->menu[] = array(
+                    		'label'=>'<i class="icon-user"></i> Logout ('.Yii::app()->user->name.')',
+                    		'url'=>array('/site/logout')
+                    	);?>
+                    <?php if(count($this->menu) > 0):?>
+					  	<?php	  
+						$this->widget('zii.widgets.CMenu', array(
+							'items'=>$this->menu,
+							'encodeLabel'=>false,
+							'activeCssClass'=>'active',
+							'htmlOptions'=>array('class'=>'dropdown-menu'),
+						));
+						?>
+					<?php endif; //Se o menu tem algum item?> 
+                    <?php /*
+                    <li><?php echo CHtml::link('<i class="icon-user"></i> Logout ('.Yii::app()->user->name.')' , array('/site/logout'));?></li>
+                  */?>
+              </li>
+              	<?php endif;?>
+              </ul> 
             <p class="navbar-text pull-right">              
               <?php $this->widget('zii.widgets.CMenu',array(
           'activeCssClass'=>'active',

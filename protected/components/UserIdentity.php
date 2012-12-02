@@ -49,8 +49,8 @@ class UserIdentity extends CUserIdentity
  * @property string $photo
 	 */
 	public function auth()
-	{		
-			
+	{	
+		
 			//Carrega atributos do usuário
 	   		$user = new User();
 	   		$user = $user->find('email = :email', array('email'=>$this->username));
