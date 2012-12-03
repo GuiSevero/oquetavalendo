@@ -151,8 +151,19 @@ class SiteController extends Controller
 
 	public function actionExibeDetalhes($idEvent)
 	{
+		$userId = Yii::app()->user->id;
 		$event = Event::model()->findByAttributes(array('id_event' => $idEvent));
-		$this->render("event", array("event" => $event));
+		$userEvent = UserEvent::model()
+			->findByAttributes(array('id_user' => $userId,
+														'id_event' => $idEvent));
+
+		if(count($userEvent) > 0)
+			$vou = true;
+		else
+			$vou = false;
+
+		$this->render("event", array("event" => $event, 
+																"vou" => $vou));
 	}
 
 
@@ -179,4 +190,35 @@ class SiteController extends Controller
 	public function actionParty(){
 		$this->render('pages/party');
 	}
+
+	public function actionIrNaoIr($valueVou)
+	{	
+
+
+		var_dump($valueVou);
+		//var_dump($idEvent);
+
+		//echo json_encode(array('success'=>'1','message'=>'success!!!','3rd parameter'));
+		//Yii::app()->end();;
+		/*
+
+			if($_POST['vou'] == 0)
+    	{ //Clicou em 'Vou!'
+    		$confirmaPresenca = new UserEvent;
+    		$confirmaPresenca->id_user = $userId;
+    		$confirmaPresenca->id_event = $idEvent;
+    		$confirmaPresenca->save();
+    	}	
+    	elseif($_POST['vou'] == 1) 
+    	{ //Clicou em 'Não vou mais!'
+    		$userEvent = UserEvent::model()
+					->findByAttributes(array('id_user' => $userId,
+														'id_event' => $idEvent));
+				$userEvent->delete();
+    	}
+    }*/
+  }
+
+
+
 }
