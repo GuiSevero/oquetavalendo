@@ -1,20 +1,19 @@
 <?php
 
 /**
- * Esse é o modelo para a tabela "COMMENT".
+ * This is the model class for table "comment".
  *
- * Atributos
+ * The followings are the available columns in table 'comment':
  * @property integer $id_comment
  * @property integer $id_user
  * @property integer $id_event
  * @property string $text
  * @property integer $rating
  *
- * Relacionamentos possíveis
- * @property USER $idUser
- * @property EVENT $idEvent
+ * The followings are the available model relations:
+ * @property User $idUser
+ * @property Event $idEvent
  */
-
 class Comment extends CActiveRecord
 {
 	/**
@@ -32,7 +31,7 @@ class Comment extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'COMMENT';
+		return 'comment';
 	}
 
 	/**
@@ -43,7 +42,7 @@ class Comment extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_comment, id_user, id_event', 'required'),
+			array('id_user, id_event', 'required'),
 			array('id_comment, id_user, id_event, rating', 'numerical', 'integerOnly'=>true),
 			array('text', 'length', 'max'=>255),
 			// The following rule is used by search().
@@ -60,8 +59,8 @@ class Comment extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'Sender' => array(self::BELONGS_TO, 'USER', 'id_user'),
-			'Event' => array(self::BELONGS_TO, 'EVENT', 'id_event'),
+			'sender' => array(self::BELONGS_TO, 'User', 'id_user'),
+			'event' => array(self::BELONGS_TO, 'Event', 'id_event'),
 		);
 	}
 
@@ -71,11 +70,11 @@ class Comment extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_comment' => 'IdComment',
-			'id_user' => 'IdUser',
-			'id_event' => 'IdEvent',
-			'text' => 'Comentário',
-			'rating' => 'Nota',
+			'id_comment' => 'Id Comment',
+			'id_user' => 'Id User',
+			'id_event' => 'Id Event',
+			'text' => 'Text',
+			'rating' => 'Rating',
 		);
 	}
 
@@ -100,4 +99,6 @@ class Comment extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+
 }

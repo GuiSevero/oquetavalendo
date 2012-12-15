@@ -8,7 +8,7 @@
 		    		</td>
 		    	<tr>
 		    		<td align='left'>
-		    			<b><?php echo $event->Place->name?> | <?php echo $event->getFormatedDate()?></b>
+		    			<b><?php echo $event->place->name?> | <?php echo $event->getFormatedDate()?></b>
 		    		</td>
 		    		<td align='right'>
 		    			<p><?php echo CHtml::link("Ver detalhes &raquo;",	$this->createUrl('exibeDetalhes', array('idEvent' => $event->id_event)), array('class' => 'btn'));?></p>

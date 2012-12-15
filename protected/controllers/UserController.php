@@ -32,8 +32,8 @@ class UserController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update', 'edit'),
-				'users'=>array('*'),
+				'actions'=>array('create','update', 'edit', 'irNaoIr', 'wentEvents', 'sentComments'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -183,5 +183,46 @@ class UserController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+	public function actionIrNaoIr($idEvent, $valueVou)
+	{	
+		$userId = Yii::app()->user->id;
+
+		if($valueVou == 1)
+		{ //Clicou em 'Vou!'
+  		$confirmaPresenca = new UserEvent;
+  		$confirmaPresenca->id_user = $userId;
+  		$confirmaPresenca->id_event = $idEvent;
+  		$confirmaPresenca->save();
+  	}	
+  	elseif($valueVou == 0) 
+  	{ //Clicou em 'Não vou mais!'
+  		$userEvent = UserEvent::model()
+				->findByAttributes(array('id_user' => $userId,
+													'id_event' => $idEvent));
+			$userEvent->delete();
+  	}
+		
+		echo json_encode(array('success'=>'1'));
+    Yii::app()->end();;		
+  }
+
+  public function actionWentEvents($idUser)
+  {
+  	$user = User::model()->findByAttributes(array('id' => $idUser));
+  	
+  	$this->render('user_went_events',array(
+				'user'=>$user,
+		));
+  }
+  
+  public function actionSentComments($idUser)
+  {
+  	$user = User::model()->findByAttributes(array('id' => $idUser));
+  	
+  	$this->render('user_sent_comments',array(
+				'user'=>$user,
+		));
+  }
 
 }

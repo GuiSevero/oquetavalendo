@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Event', 'url'=>array('index')),
-	array('label'=>'Manage Event', 'url'=>array('admin')),
+	array('label'=>'Listar Eventos', 'url'=>array('index')),
+	array('label'=>'Gerenciar Eventos', 'url'=>array('admin')),
 );
 ?>
 

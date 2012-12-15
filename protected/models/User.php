@@ -69,8 +69,8 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'Comments' => array(self::HAS_MANY, 'COMMENT', 'id_user'),
-			'Events' => array(self::MANY_MANY, 'EVENT', 'USER_EVENT(id_user, id_event)'),
+			'comments' => array(self::HAS_MANY, 'COMMENT', 'id_user'),
+			'events' => array(self::MANY_MANY, 'EVENT', 'USER_EVENT(id_user, id_event)'),
 			'Function' => array(self::HAS_ONE, 'USERFUNCTION', 'id_userFunction'),
 		);
 	}

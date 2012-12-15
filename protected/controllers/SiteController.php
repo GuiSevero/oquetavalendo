@@ -151,7 +151,23 @@ class SiteController extends Controller
 
 	public function actionExibeDetalhes($idEvent)
 	{
+		
+
 		$userId = Yii::app()->user->id;
+		
+		if(isset($_POST['txt_comment']))
+   	{
+   		$comment = new Comment;
+			$comment->id_user = $userId;
+			$comment->id_event = $idEvent;
+			$comment->date =  date('d/m/Y H:i:s');
+			$comment->text = $_POST['txt_comment'];
+			$comment->save();
+
+			$this->redirect(array('exibeDetalhes','idEvent'=>$idEvent));
+			
+		}
+
 		$event = Event::model()->findByAttributes(array('id_event' => $idEvent));
 		$userEvent = UserEvent::model()
 			->findByAttributes(array('id_user' => $userId,
@@ -162,8 +178,11 @@ class SiteController extends Controller
 		else
 			$vou = false;
 
+		$comments = Comment::model()->findAllByAttributes(array('id_event' => $idEvent), array('order' => 'rating DESC'));
+
 		$this->render("event", array("event" => $event, 
-																"vou" => $vou));
+																"vou" => $vou,
+																"comments" => $comments));
 	}
 
 
@@ -190,35 +209,5 @@ class SiteController extends Controller
 	public function actionParty(){
 		$this->render('pages/party');
 	}
-
-	public function actionIrNaoIr($valueVou)
-	{	
-
-
-		var_dump($valueVou);
-		//var_dump($idEvent);
-
-		//echo json_encode(array('success'=>'1','message'=>'success!!!','3rd parameter'));
-		//Yii::app()->end();;
-		/*
-
-			if($_POST['vou'] == 0)
-    	{ //Clicou em 'Vou!'
-    		$confirmaPresenca = new UserEvent;
-    		$confirmaPresenca->id_user = $userId;
-    		$confirmaPresenca->id_event = $idEvent;
-    		$confirmaPresenca->save();
-    	}	
-    	elseif($_POST['vou'] == 1) 
-    	{ //Clicou em 'Não vou mais!'
-    		$userEvent = UserEvent::model()
-					->findByAttributes(array('id_user' => $userId,
-														'id_event' => $idEvent));
-				$userEvent->delete();
-    	}
-    }*/
-  }
-
-
 
 }

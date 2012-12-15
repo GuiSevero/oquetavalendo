@@ -29,7 +29,49 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-		
+		'comments'=>array(
+        //you may override default config for all connecting models
+        'defaultModelConfig' => array(
+            //only registered users can post comments
+            'registeredOnly' => false,
+            'useCaptcha' => false,
+            //allow comment tree
+            'allowSubcommenting' => true,
+            //display comments after moderation
+            'premoderate' => false,
+            //action for postig comment
+            'postCommentAction' => 'comments/comment/postComment',
+            //super user condition(display comment list in admin view and automoderate comments)
+            'isSuperuser'=>'Yii::app()->user->checkAccess("moderate")',
+            //order direction for comments
+            'orderComments'=>'DESC',
+        ),
+        //the models for commenting
+        'commentableModels'=>array(
+            //model with individual settings
+            'Event'=>array(
+                'registeredOnly'=>true,
+                'useCaptcha'=>true,
+                'allowSubcommenting'=>false,
+                //config for create link to view model page(page with comments)
+                'pageUrl'=>array(
+                    'route'=>'site/exibeDetalhes',
+                    'data'=>array('id'=>'id_event'),
+                ),
+            ),
+            //model with default settings
+            'ImpressionSet',
+        ),
+        //config for user models, which is used in application
+        'userConfig'=>array(
+            'class'=>'User',
+            'nameProperty'=>'name',
+            'emailProperty'=>'email',
+        ),
+    ),
+
+
+
 	),
 
 	// application components
@@ -53,22 +95,22 @@ return array(
 			    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		
+		/*
 		'db'=>array(
 			'connectionString' => 'mysql:host=174.120.126.202;dbname=oqueta_testes',
 			'emulatePrepare' => true,
 			'username' => 'oqueta_tester',
 			'password' => 'diogocosta',
 			'charset' => 'utf8',
-		), 
-		/*
+		),*/ 
+		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=oqtv',
+			'connectionString' => 'mysql:host=localhost;dbname=oqueta_offline',
 			'emulatePrepare' => true,
-			'username' => 'oqtv',
-			'password' => 'gorder',
+			'username' => 'root',
+			'password' => '',
 			'charset' => 'utf8',
-		),*/
+		),
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
