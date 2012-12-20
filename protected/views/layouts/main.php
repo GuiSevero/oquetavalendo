@@ -96,12 +96,12 @@
 									'htmlOptions'=>array('class'=>'nav nav-pills'),
 					'items'=>array(
 						array('label'=>'Home', 'url'=>array('/site/index')),
-						//array('label'=>'Shows', 'url'=>array('/site/page', 'view'=>'about')),
-            array('label'=>'Shows', 'url'=>array('/site/shows')),
-						array('label'=>'Festas', 'url'=>array('/site/party')),
-            array('label'=>'Teatro', 'url'=>array('/site/theater')),
-            array('label'=>'Cinema', 'url'=>array('/site/movies')),
-            //array('label'=>'Fotos', 'url'=>array('/site/photo')),  		
+						array('label'=>'Festas', 'url'=>array('/event/party')),
+						array('label'=>'Shows', 'url'=>array('/event/show')),
+						array('label'=>'Teatro', 'url'=>array('/event/theater')),
+						array('label'=>'Locais', 'url'=>array('/places')),
+           				//array('label'=>'Shows', 'url'=>array('/site/shows')),
+						  		
 					),
 				)); ?>
             </ul>

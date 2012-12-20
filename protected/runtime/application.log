@@ -6458,3 +6458,26 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/oquetavalendo/sentComments?idUser=2
 ---
+2012/12/19 23:40:11 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'oqueta_testes.comment' doesn't exist. A declaração SQL executada foi: SHOW COLUMNS FROM `comment`.
+in C:\xampp\htdocs\oquetavalendo\protected\models\Comment.php (26)
+in C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php (181)
+in C:\xampp\htdocs\oquetavalendo\index.php (13)
+2012/12/19 23:40:11 [error] [exception.CDbException] exception 'CDbException' with message 'A tabela "comment" da classe de active record "Comment", não pôde ser encontrada no banco de dados.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Comment))
+#1 C:\xampp\htdocs\oquetavalendo\protected\models\Comment.php(26): CActiveRecord::model('Comment')
+#2 C:\xampp\htdocs\oquetavalendo\protected\controllers\SiteController.php(181): Comment::model()
+#3 [internal function]: SiteController->actionExibeDetalhes('2')
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('exibedetalhes')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/exibeDetal...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\oquetavalendo\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/oquetavalendo/index.php/site/exibeDetalhes?idEvent=2
+HTTP_REFERER=http://localhost:8080/oquetavalendo/
+---
