@@ -20,13 +20,6 @@
 		<?php echo $form->textField($model,'title',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model,'title'); ?>
 	</div>
-	
-		<div class="row">
-		<?php echo $form->labelEx($model,'image'); ?>
-		<?php echo $form->textField($model,'image'); ?>
-		<?php echo $form->error($model,'image'); ?>
-	</div>
-	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_place'); ?>
@@ -87,7 +80,6 @@
 		<?php echo $form->textField($model,'priority'); ?>
 		<?php echo $form->error($model,'priority'); ?>
 	</div>
-	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'type'); ?>

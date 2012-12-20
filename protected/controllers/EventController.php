@@ -28,7 +28,7 @@ class EventController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'party', 'theater', 'show'),
+				'actions'=>array('index','view', 'party', 'theater', 'show', 'exibeDetalhes'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -169,6 +169,50 @@ class EventController extends Controller
 		
 	}
 	
+
+	public function actionExibeDetalhes($idEvent)
+	{
+		
+		//Grava a visita do usuário.
+		$navigation = new UserNavigation;
+		$navigation->id_user = Yii::app()->user->id;
+		
+		$event = Event::model()->findByAttributes(array('id_event' => $idEvent));
+		
+		$navigation->typeEvent = $event->eventType->id_type;
+		$navigation->save();
+		$userId = Yii::app()->user->id;
+		
+		//Se for comentário
+		if(isset($_POST['txt_comment']))
+   	{
+   		$comment = new Comment;
+			$comment->id_user = $userId;
+			$comment->id_event = $idEvent;
+			$comment->date =  date('d/m/Y H:i:s');
+			$comment->text = $_POST['txt_comment'];
+			$comment->save();
+			$this->redirect(array('exibeDetalhes','idEvent'=>$idEvent));
+		}
+
+		//Exibe os dados na view
+		$event = Event::model()->findByAttributes(array('id_event' => $idEvent));
+		$userEvent = UserEvent::model()
+			->findByAttributes(array('id_user' => $userId,
+														'id_event' => $idEvent));
+
+		//Marca 'vou' ou 'nãoVou'
+		if(count($userEvent) > 0)
+			$vou = true;
+		else
+			$vou = false;
+
+		$comments = Comment::model()->findAllByAttributes(array('id_event' => $idEvent), array('order' => 'rating DESC'));
+
+		$this->render("event", array("event" => $event, 
+																"vou" => $vou,
+																"comments" => $comments));
+	}
 	
 	/**
 	 * 

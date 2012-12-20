@@ -66,12 +66,92 @@ class SiteController extends Controller
 				break;
 			
 			case 2: //Recomendado
-				$events = Event::model()->findAllByAttributes(array());
+				
+				//retorna os eventos que o usuário logado acessou
+				$sql = "SELECT typeEvent, COUNT(*) as clicks 
+								FROM user_navigation 
+								WHERE id_user = ".Yii::app()->user->id." 
+								GROUP BY typeEvent";
+				$oDbConnection = Yii::app()->db; // Getting database connection (config/main.php has to set up database
+				$oCommand = $oDbConnection->createCommand($sql);
+				$navigation = $oCommand->queryAll();
+				
+				//somatorio de todos os eventos acessados
+				$sum = 0;
+				foreach($navigation as $nav):
+					$sum += $nav['clicks'];
+				endforeach;
+				
+				//calculo percentual
+				$percent = 0;
+				$percent_type = array();
+				foreach($navigation as $nav):
+					$percent = ($nav['clicks']/$sum);
+					$percent_type[$nav['typeEvent']] = $percent*100;
+				endforeach;
+				
+				$events = Event::model()->findAllByAttributes(array(), array('condition' => "date_time >= '".$dataHoraAtual."'"));
+
+				$addEvent = array();
+				$countEvents = 1;
+				while($countEvents < 9):
+					foreach($events as $event):
+						$varRand = rand(0,10);
+						if($varRand >= 5):
+							switch($event->type):
+								case 1:
+									$varRand = rand(1,100);
+									if($varRand <= $percent_type[1] && !in_array($event->id_event, $addEvent)):
+										$addEvent[] = $event->id_event;
+										$countEvents++;
+									endif;
+									break;
+								case 2:
+									$varRand = rand(1,100);
+									if($varRand <= $percent_type[2] && !in_array($event->id_event, $addEvent)):
+										$addEvent[] = $event->id_event;
+										$countEvents++;
+									endif;
+									break;
+								case 3:
+									$varRand = rand(1,100);
+									if($varRand <= $percent_type[3] && !in_array($event->id_event, $addEvent)):
+										$addEvent[] = $event->id_event;
+										$countEvents++;
+									endif;
+									break;
+								case 4:
+									$varRand = rand(1,100);
+									if($varRand <= $percent_type[4] && !in_array($event->id_event, $addEvent)):
+										$addEvent[] = $event->id_event;
+										$countEvents++;
+									endif;
+									break;
+							endswitch;
+						endif;
+					endforeach;
+				endwhile;
+				
+				//Cria string para consulta
+				$countEvts = 1;
+				$total = count($addEvent);
+				$in = "(";
+				foreach ($addEvent as $k => $evt):
+					if($countEvts < $total):
+						$in .= $evt.",";
+						$countEvts++;
+					else:
+						$in .= $evt.")";
+					endif;
+				endforeach;
+				
+				$events = Event::model()->findAllByAttributes(array(), array('condition' => "date_time >= '".$dataHoraAtual."' AND id_event in ".$in.""));
+
 				break;
-			
 			case 3: //Mais Mulheres
 				$events = Event::model()->findAllByAttributes(array(), array('condition' => "date_time >= '".$dataHoraAtual."'",
 																																			'order' => 'numberGirls DESC'));
+				
 				break;
 
 			case 4: //Mais Homens
@@ -146,43 +226,6 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
-	}
-
-
-	public function actionExibeDetalhes($idEvent)
-	{
-		
-
-		$userId = Yii::app()->user->id;
-		
-		if(isset($_POST['txt_comment']))
-   	{
-   		$comment = new Comment;
-			$comment->id_user = $userId;
-			$comment->id_event = $idEvent;
-			$comment->date =  date('d/m/Y H:i:s');
-			$comment->text = $_POST['txt_comment'];
-			$comment->save();
-
-			$this->redirect(array('exibeDetalhes','idEvent'=>$idEvent));
-			
-		}
-
-		$event = Event::model()->findByAttributes(array('id_event' => $idEvent));
-		$userEvent = UserEvent::model()
-			->findByAttributes(array('id_user' => $userId,
-														'id_event' => $idEvent));
-
-		if(count($userEvent) > 0)
-			$vou = true;
-		else
-			$vou = false;
-
-		$comments = Comment::model()->findAllByAttributes(array('id_event' => $idEvent), array('order' => 'rating DESC'));
-
-		$this->render("event", array("event" => $event, 
-																"vou" => $vou,
-																"comments" => $comments));
 	}
 
 
