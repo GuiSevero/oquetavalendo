@@ -52,7 +52,7 @@
               		<li class="pull-right"><?php echo CHtml::link('<i class="icon-user"></i> Login' , array('/site/login', 'returnUrl'=>$this->createUrl($this->route)));?></li>
               	<?php else:?>
               	<li class="dropdown" id="op-menu">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-wrench"></i> <b>Menu</b> <b class="caret"></b></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-wrench icon-white"></i> <b>Menu</b> <b class="caret"></b></a>
                 <?php $this->menu[] = array(
                     		'label'=>'<i class="icon-user"></i> Logout ('.Yii::app()->user->name.')',
                     		'url'=>array('/site/logout')
@@ -67,25 +67,9 @@
 						));
 						?>
 					<?php endif; //Se o menu tem algum item?> 
-                    <?php /*
-                    <li><?php echo CHtml::link('<i class="icon-user"></i> Logout ('.Yii::app()->user->name.')' , array('/site/logout'));?></li>
-                  */?>
               </li>
               	<?php endif;?>
               </ul> 
-            <p class="navbar-text pull-right">              
-              <?php $this->widget('zii.widgets.CMenu',array(
-          'activeCssClass'=>'active',
-                        'activateItems'=>true,
-                        'activateParents'=>true,
-                  'encodeLabel'=>false,
-                  'activeCssClass'=>'active',
-                  'htmlOptions'=>array('class'=>'nav pull-right'),
-          'items'=>array(
-            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-          ),
-        )); ?>
-            </p>
             <ul class="nav">             
               	<?php $this->widget('zii.widgets.CMenu',array(
 					'activeCssClass'=>'active',
@@ -96,12 +80,12 @@
 									'htmlOptions'=>array('class'=>'nav nav-pills'),
 					'items'=>array(
 						array('label'=>'Home', 'url'=>array('/site/index')),
-						//array('label'=>'Shows', 'url'=>array('/site/page', 'view'=>'about')),
-            array('label'=>'Shows', 'url'=>array('/site/shows')),
-						array('label'=>'Festas', 'url'=>array('/site/party')),
-            array('label'=>'Teatro', 'url'=>array('/site/theater')),
-            array('label'=>'Cinema', 'url'=>array('/site/movies')),
-            //array('label'=>'Fotos', 'url'=>array('/site/photo')),  		
+						array('label'=>'Festas', 'url'=>array('/event/party')),
+						array('label'=>'Shows', 'url'=>array('/event/show')),
+						array('label'=>'Teatro', 'url'=>array('/event/theater')),
+						array('label'=>'Locais', 'url'=>array('/places')),
+           				//array('label'=>'Shows', 'url'=>array('/site/shows')),
+						  		
 					),
 				)); ?>
             </ul>

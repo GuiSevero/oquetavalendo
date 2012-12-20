@@ -174,4 +174,3 @@ protected/commands/
 protected/migrations/
 themes/classic/views/
 themes/
-*.tar
