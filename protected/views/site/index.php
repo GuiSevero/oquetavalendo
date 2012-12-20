@@ -6,78 +6,86 @@
 Yii::app()->clientScript->registerScript('carousel',"
 //tabs
 $('#hottest-carousel').carousel({
-  interval: 4500
+  interval: 500
 })
+
+$('.event-card').hover(function(){
+	$(this).addClass('event-card-active');
+}, function(){
+	$(this).removeClass('event-card-active');
+});
 ");
-?><!--
+?>
+<?php /*
+<?php $lastEvents = Event::model()->findAll(array('order'=>'date_time desc', 'limit'=>3))?>
   <div id="hottest-carousel" class="carousel slide">
     <div class="carousel-inner">
-      <div class="item carousel-item active">
-        <img src="http://www.qualeaboa.com.br/wp-content/uploads/2012/01/6834evanescence.jpg">
+     <?php foreach($lastEvents as $event):?>
+      <div class="item carousel-item">
+		<?php echo CHtml::image($event->image, '',array('height'=>10))?>
         <div class="carousel-caption">              
-         <h4> 04/10 – Evanescence no Pepsi On Stage. </h4>
+         <h4> <?php echo CHtml::encode($event->title)?> </h4>
         </div>
       </div>
-      <div class="item carousel-item">
-        <img src="http://www.qualeaboa.com.br/wp-content/uploads/2012/01/soja-02.jpg">
-        <div class="carousel-caption">
-          <h4>05/10 – S O J A @ Pepsi On Stage</h4>                
-        </div>
-      </div>
-      <div class="item carousel-item">
-        <img src="http://www.qualeaboa.com.br/wp-content/uploads/2012/09/capa17.jpg">
-        <div class="carousel-caption">
-          <h4>Lounge M.Grupo no show da Ana Carolina @ Teatro do Sesi</h4>                
-        </div>
-      </div>
+     <?php endforeach;?>
     </div>        
-  </div>-->
-
+  </div>
+*/ ?>
   <div class="cards-container">
     <ul id="tabs" class="nav nav-tabs">
-      <li id="tab1" class="active">
-        <?=CHtml::ajaxLink("Principais Eventos", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+      <li id="tab-top" class="tab-item active">
+        <?php echo CHtml::ajaxLink("Principais Eventos", CController::createUrl("site/tabSelecionadaAtualizaView"), 
           array("type" => "GET",
                 "data" => "id=1",
-                "success" => 'function(dados){
-                                $("#eventos").html(dados);
-                              }'
-          ));?></a>
+                "success" =>"function(dados){
+                                $('#eventos').html(dados);
+                                $('.tab-item').removeClass('active');
+                                $('#tab-top').addClass('active');
+                              }"
+          ));?>
       </li>
-      <li id="tab2" class="">
-        <?=CHtml::ajaxLink("Recomendado", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+      <li id="tab-recomended" class="tab-item">
+        <?php echo CHtml::ajaxLink("Recomendado", CController::createUrl("site/tabSelecionadaAtualizaView"), 
           array("type" => "GET",
                 "data" => "id=2",
-                "success" => 'function(dados){
-                                $("#eventos").html(dados);
-                              }'
+                "success" => "function(dados){
+                                $('#eventos').html(dados);
+                                $('.tab-item').removeClass('active');
+                                $('#tab-recomended').addClass('active');
+                              }"
           ));?>
       </li>
-      <li id="tab2" class="">
-        <?=CHtml::ajaxLink("Mais mulheres", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+      <li id="tab-women" class="tab-item">
+        <?php echo CHtml::ajaxLink("Mais mulheres", CController::createUrl("site/tabSelecionadaAtualizaView"), 
           array("type" => "GET",
                 "data" => "id=3",
-                "success" => 'function(dados){
-                                $("#eventos").html(dados);
-                              }'
+                "success" => "function(dados){
+                                $('#eventos').html(dados);
+                                $('.tab-item').removeClass('active');
+                                $('#tab-women').addClass('active');
+                              }"
           ));?>
       </li>
-      <li id="tab2" class="">
-        <?=CHtml::ajaxLink("Mais homens", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+      <li id="tab-men" class="tab-item">
+        <?php echo CHtml::ajaxLink("Mais homens", CController::createUrl("site/tabSelecionadaAtualizaView"), 
           array("type" => "GET",
                 "data" => "id=4",
-                "success" => 'function(dados){
-                                $("#eventos").html(dados);
-                              }'
+                "success" => "function(dados){
+                                $('#eventos').html(dados);
+                                $('.tab-item').removeClass('active');
+                                $('#tab-men').addClass('active');
+                              }"
           ));?>
       </li>
-      <li id="tab3" class="">
-        <?=CHtml::ajaxLink("Todos", CController::createUrl("site/tabSelecionadaAtualizaView"), 
+      <li id="tab-all" class="tab-item">
+        <?php echo CHtml::ajaxLink("Todos", CController::createUrl("site/tabSelecionadaAtualizaView"), 
           array("type" => "GET",
                 "data" => "id=0",
-                "success" => 'function(dados){
-                                $("#eventos").html(dados);
-                              }'
+                "success" => "function(dados){
+                                $('#eventos').html(dados);
+                                $('.tab-item').removeClass('active');
+                                $('#tab-all').addClass('active');
+                              }"
           ));?>
       </li>
     </ul>
